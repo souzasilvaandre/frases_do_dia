@@ -10,14 +10,9 @@ void main(List<String> args) {
         color: Colors.white
         )
       ),
-     child: Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        Text("T1"),
-        Text("T2"),
-        Text("T3")
-      ],
+     child: Image.asset(
+      "images/robo.jpg",
+      fit: BoxFit.contain,
      ),
     ),
   ));
