@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void main(List<String> args) {
   runApp(MaterialApp(
-    title: "frase do dia",
+    title: "frase do dia 2",
     home: HomeStateSull(),
   ));
 }
